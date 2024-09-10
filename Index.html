@@ -74,10 +74,10 @@
         <!-- Your Image -->
         <div class="gallery-item">
             <!-- Thumbnail Image -->
-            <img src="https://drive.google.com/thumbnail?id=1cPIdETHcIYzvQoT_Vg5YGCshVWayiGhy" alt="Image 1" onclick="openModal('https://drive.google.com/uc?export=view&id=1cPIdETHcIYzvQoT_Vg5YGCshVWayiGhy')">
+            <img src="https://drive.google.com/thumbnail?id=1cSfDEOKjcMrmrmrLhYJjGBB3OKq81rJ4" alt="Image 1" onclick="openModal('https://drive.google.com/uc?export=view&id=1cSfDEOKjcMrmrmrLhYJjGBB3OKq81rJ4')">
             <br>
-            <!-- Download button -->
-            <a href="https://drive.google.com/uc?export=download&id=1iPvpnpflEufgWC4Np3Q3UMXABvmIYKdT" class="download-button" download="image1.jpg">Download</a>
+            <!-- Download button with forced download link -->
+            <a href="https://drive.google.com/uc?export=download&id=1cSfDEOKjcMrmrmrLhYJjGBB3OKq81rJ4" class="download-button" download>Download</a>
         </div>
     </div>
 
@@ -92,7 +92,7 @@
             // Display the modal
             var modal = document.getElementById("imageModal");
             var fullImage = document.getElementById("fullImage");
-
+            
             // Set the full-size image as the modal content
             fullImage.src = imageSrc;
 
